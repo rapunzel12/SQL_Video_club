@@ -7,6 +7,7 @@
 
 ## 📈 Visualizations:
 - **This is the Database Model**
+
 ![Database Diagram](../images/Diagram_Finale.jpg)
 
 👉 See query results and database visualization in **[SQL_RESULTS.md](documentation/sql_results.md)**
@@ -17,13 +18,17 @@
 - FROM Movie
 - WHERE Duration=60
 - AND Grade>=4;
+
 ![Query Example 1](../images/Image_01_phpMyAdmin.jpg)
 
 - Select Title, Duration and Grade of the table Movie where Grade is 7, and order by the Duration from the longest to the Shortes Movie.
+Use `SELECT Title, Duration, Grade FROM Movie WHERE Grade = 7 ORDER BY Duration DESC;` to fetch movies with Grade 7, sorted by duration.
+
 - SELECT Title, Duration, Grade
 - FROM Movie
 - WHERE Grade =7
 - ORDER BY Duration DESC;
+
 ![Query Example 2](../images/Image_02_phpMyAdmin.jpg)
 
 - Fetch the Members Names and the NumberOfDays of borrowed video tapes using Join. Number of Days are organised in ascending manner
@@ -31,9 +36,11 @@
 - FROM Member m 
 - INNER JOIN Borrowed b ON m.idMember=b.idMember 
 - ORDER BY NumberOfDays ASC;
+
 ![Query Example 3](../images/Image_03_phpMyAdmin.jpg)
 
 - **Here are some examples of sql queries with results in MySQL tool**
+
 ![Query Example 4](../images/Image_04_MySql.jpg)
 
 
@@ -46,6 +53,7 @@
 ![Query Example 7](../images/Image_10_MySql.jpg)
 
 - **Here are some examples of sql queries with results in pgAdmin4 tool**
+
 ![Query Example 8](../images/Image_07_PostgreSQL.jpg)
 
 

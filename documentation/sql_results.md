@@ -7,7 +7,10 @@
 
 ## 📈 Visualizations:
 - **This is the Database Model**
+👉 See database diagram in **[SQL_RESULTS.md](documentation/sql_results.md)**
+![Database Diagram](images/Diagram_Finale.jpeg)
 
+👉 See query results and database visualization in **[SQL_RESULTS.md](documentation/sql_results.md)**
 - **Here are some examples of sql queries run in phpMyAdmin tool**
 - **Matplotlib graphs** for most rented movies.
 

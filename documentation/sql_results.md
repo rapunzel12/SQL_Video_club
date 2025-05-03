@@ -14,28 +14,32 @@
 - **Here are some examples of sql queries with results in phpMyAdmin tool**
 
 - Select Title, Duration and Grade of the Movie where Duration is 60 minutes and the grade is minimum 4.
-- SELECT Title, Duration, Grade
-- FROM Movie
-- WHERE Duration=60
-- AND Grade>=4;
+```sql
+SELECT Title, Duration, Grade
+FROM Movie
+WHERE Duration=60
+AND Grade>=4;
+```
 
 ![Query Example 1](../images/Image_01_phpMyAdmin.jpg)
 
 - Select Title, Duration and Grade of the table Movie where Grade is 7, and order by the Duration from the longest to the Shortes Movie.
-Use `SELECT Title, Duration, Grade FROM Movie WHERE Grade = 7 ORDER BY Duration DESC;` to fetch movies with Grade 7, sorted by duration.
-
-- SELECT Title, Duration, Grade
-- FROM Movie
-- WHERE Grade =7
-- ORDER BY Duration DESC;
+```sql
+SELECT Title, Duration, Grade
+FROM Movie
+WHERE Grade = 7
+ORDER BY Duration DESC;
+```
 
 ![Query Example 2](../images/Image_02_phpMyAdmin.jpg)
 
 - Fetch the Members Names and the NumberOfDays of borrowed video tapes using Join. Number of Days are organised in ascending manner
-- SELECT m.Name, b.NumberOfDays
-- FROM Member m 
-- INNER JOIN Borrowed b ON m.idMember=b.idMember 
-- ORDER BY NumberOfDays ASC;
+```sql
+SELECT m.Name, b.NumberOfDays
+FROM Member m 
+INNER JOIN Borrowed b ON m.idMember=b.idMember 
+ORDER BY NumberOfDays ASC;
+```
 
 ![Query Example 3](../images/Image_03_phpMyAdmin.jpg)
 

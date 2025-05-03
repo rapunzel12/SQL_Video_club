@@ -7,7 +7,7 @@
 
 ## 📈 Visualizations:
 - **This is the Database Model**
-👉 See database diagram in ![Database Diagram](images/Diagram_Finale.jpeg)
+👉 See database diagram in ![Database Diagram](../images/Diagram_Finale.jpg)
 
 👉 See query results and database visualization in **[SQL_RESULTS.md](documentation/sql_results.md)**
 - **Here are some examples of sql queries run in phpMyAdmin tool**
